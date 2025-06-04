@@ -45,3 +45,48 @@ lib/
 ├── screens/ # UI screens: UserList, UserDetail, CreatePost
 ├── services/ # API service integration
 ├── widgets/ # Shared widgets like loading indicators
+
+---
+
+## 🚀 Getting Started
+
+### 1. Prerequisites
+- Flutter SDK (>=3.10)
+- Dart
+- Android Studio / VS Code
+
+### 2. Setup
+
+Clone the repo:
+
+```bash
+git clone https://github.com/your-username/flutter-user-app.git
+cd flutter-user-app
+
+flutter pub get
+flutter run
+
+🎯 Architecture Overview
+State Management: BLoC (Business Logic Component)
+
+Data Flow:
+
+Events triggered from UI
+
+BLoC handles logic and API calls
+
+Emits new state (loading, success, error)
+
+UI reacts via BlocBuilder or BlocConsumer
+
+API Layer: ApiService abstracts HTTP calls using http package
+
+ Tools & Resources
+Flutter
+
+flutter_bloc
+
+DummyJSON API Docs
+ Author
+Name: Rajesh Nath Tyagi
+Email: rajeshnathtyagi@gmail.com
